@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.FormStudentActivity">
+
+    <EditText
+        android:id="@+id/activity_form_student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Nome"
+        android:inputType="textCapWords"
+        />
+
+    <EditText
+        android:id="@+id/activity_form_student_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Telefone"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/activity_form_student_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/activity_form_student_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Salvar"
+        android:onClick="onClickSaveStudent"
+        />
+
+
+</LinearLayout>
